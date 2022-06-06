@@ -1,0 +1,24 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victoria-V-V/week_22_Dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victoria-V-V/week_22_Dashboard/issues"
+  },
+  "homepage": "https://github.com/Victoria-V-V/week_22_Dashboard#readme",
+  "dependencies": {
+    "chart.js": "^3.8.0",
+    "moment": "^2.29.3",
+    "tiny-slider": "^2.9.4"
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__title">Dashboard</div>
+        <div class="header__date"></div>
+    </header>
+
+    <main class="main">
+        <section class="profile">
+            <div class="profile__text">
+                <h1 class="profile__title">Welcome </br> Izabella Tabakova
+                </h1>
+                <p class="profile__subtitle">
+                    You have projects to finish and already completed 68% from your monthly level. Keep going to your
+                    goal!
+                </p>
+                <a href="#" class="profile__button">More ></a>
+            </div>
+
+            <div class="profile__image-container">
+                <img class="profile__image" src="./assets/images/girl.png" alt="">
+            </div>
+        </section>
+
+        <section class="dashboard">
+            <div class="chart">
+                <canvas id="line-chart"></canvas>
+            </div>
+
+            <div class="my-slider">
+                <img src="https://images.unsplash.com/photo-1516383274235-5f42d6c6426d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
+                    alt="">
+                <img src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
+                    alt="">
+                <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="">
+                <img src="https://images.unsplash.com/photo-1532102235608-dc8fc689c9ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="">
+            </div>
+        </section>
+    </main>
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>
